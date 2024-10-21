@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
+</head>
+<body>
+    <h1>
+        Игры
+    </h1>
+    <ul>
+        <li>
+            {{ atomic_heard }}<button>Купить</button>
+        </li>
+        <li>
+            {{ cyberpunk_2077 }}<button>Купить</button>
+        </li>
+        <li>
+            {{ pay_day_2 }}<button>Купить</button>
+        </li>
+    <button>
+        <a href="{% url 'task3:index'%}">Вернуться на главную</a>
+    </button>
+</body>
+</html>
