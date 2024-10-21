@@ -6,5 +6,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index_for_func),
     path('class/', views.IndexForClass.as_view()),
-    path('task3/', include('task3.urls', namespace='task3'))
+    path('task3/', include('task3.urls', namespace='task3')),
+    path('task4/', include('task4.urls', namespace='task4'))
 ]
